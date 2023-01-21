@@ -32,7 +32,7 @@ body{
 
 .header{
     background-image: url(./image/fon_header.png);
-    overflow: hidden;
+    overflow: visible;
     object-fit: contain;
 
 }
