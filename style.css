@@ -576,7 +576,7 @@ body{
     padding-top: 82px;
     padding-bottom: 82px;
     height: max-content;
-    background: linear-gradient(180.03deg, rgba(255, 255, 255, 0) 0.2%, #FFFFFF 12.3%);
+    background: white
 }
 
 .partners__circle{
@@ -626,7 +626,10 @@ body{
 
 @media screen and (min-width: 768px) {
     .partners__subtitle{
-        max-width: 176px;
+        max-width: 245px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
     }
     .partners{
         padding-left: 30px;
