@@ -30,6 +30,10 @@ body{
     font-family: 'actay', 'Microsoft Sans Serif', 'sans-serif';
 }
 
+input{
+    -webkit-appearance: none;
+}
+
 .header{
     background-image: url(./image/fon_header.png);
     overflow: visible;
