@@ -32,6 +32,8 @@ body{
 
 input{
     -webkit-appearance: none;
+    border: none;
+    box-shadow: none;
 }
 
 .header{
