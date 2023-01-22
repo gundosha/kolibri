@@ -35,6 +35,7 @@ input{
     border: none;
     box-shadow: none;
     outline: none;
+    border-radius: 0;
 }
 
 .header{
