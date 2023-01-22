@@ -470,6 +470,10 @@ body{
     display: none;
 }
 
+.we__subtitle_mobile{
+    display: block;
+}
+
 @media screen and (max-width: 768px) {
     .header__blur_circle-desktop{
         width: 163px;
@@ -494,6 +498,10 @@ body{
     font-size: 68px;
     line-height: 90%;
     max-width: 342px;
+    }
+
+    .we__subtitle_mobile{
+        display: none;
     }
 
     .we__procent{
@@ -1170,6 +1178,7 @@ line-height: 103%;
 
 @media screen and (min-width: 950px) {
     .container_desktop{
+        margin-top: 285px;
         display: block;
         text-align: center;
     }
@@ -1222,6 +1231,11 @@ line-height: 103%;
         opacity: 0.5;
     }
 
+    .services__title{
+        max-width: max-content;
+        margin-bottom: 50px;
+    }
+
     .services__container-desktop:hover{
         opacity: 1;
         -webkit-transition: opacity 500ms ease-in; 
@@ -1246,7 +1260,7 @@ line-height: 103%;
 
 @media screen and (min-width: 1330px){
     .services_desktop{
-        justify-content: space-between;
+        justify-content: center;
     }
 }
 
