@@ -553,6 +553,10 @@ input{
         margin-bottom: 60px;
         color: lightgray;
     }
+
+    .we__text_desktop_second{
+        margin-right: 20px;
+    }
     
     .we__text_more{
         max-width: 598px;
@@ -825,11 +829,12 @@ input{
         font-weight: 400;
 font-size: 33px;
 line-height: 103%;
+max-width: 180px;
     }
 }
 .WhyWe__text{
     font-weight: 400;
-    font-size: 9.96051px;
+    font-size: 13px;
     line-height: 12px;
     max-width: 230px;
     margin-bottom: 25px;
@@ -1241,6 +1246,9 @@ line-height: 103%;
     }
 
     .services__title{
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 90%;
         max-width: max-content;
         margin-bottom: 50px;
     }
@@ -1402,7 +1410,7 @@ line-height: 103%;
     width: 379px;
     height: 370px;
     border-radius: 50%;
-    bottom: -2816px;
+    bottom: -3471px;
     left: -111px;
     z-index: -1;
     filter: blur(29px);
@@ -1418,6 +1426,7 @@ line-height: 103%;
     }
 
     .stageswork__title{
+        margin-bottom: 57px;
         font-weight: 400;
         font-size: 68px;
         line-height: 90%;
