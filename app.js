@@ -4,7 +4,7 @@ const mailer = require('./nodemailer')
 const app = express()
 let user = undefined
 
-// const PORT = 3001 // порт
+const PORT = 3001 // порт
 
 app.use(express.static('../kolibri'));
 app.use('/static', express.static('kolibri'));
@@ -33,4 +33,4 @@ app.get('/index', (req,res) => {
     user = undefined
 })
 
- // app.listen(PORT, ()=>console.log(`server listening at http://localhost:${PORT}/index`))
+ app.listen(PORT, ()=>console.log(`server listening at http://localhost:${PORT}/index`))
