@@ -8,6 +8,7 @@ const modalForm = document.querySelector('.modal__form')
 const headerBtn = document.querySelector('.header__btn')
 const closeModal = document.querySelector('.close')
 const servicesBtn = document.querySelector('.services__btn')
+const applicationClose = document.querySelector('.application__close')
 function modalOpen(mod){
     mod.classList.remove('modal__close')
     mod.classList.add('modal__open')

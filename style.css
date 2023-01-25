@@ -265,6 +265,7 @@ input{
         font-weight: 400;
         font-size: 22px;
         line-height: 27px;
+        max-width: 450px;
     }
 
     .header__btn{
