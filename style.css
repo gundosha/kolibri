@@ -606,7 +606,7 @@ input{
 
 .partners__circle{
     background: #F79229;
-    filter: blur(45px);
+    filter: blur(26px);
     width: 155px;
     height: 156px;
     position: absolute;
