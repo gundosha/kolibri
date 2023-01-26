@@ -32,8 +32,6 @@ closeModal.addEventListener('click', function(){
     modalCloses(modalForm)
 })
 
-
-
 btnBurger.addEventListener('click', function(){
     modalOpen(modal)
 })
