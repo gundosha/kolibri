@@ -610,7 +610,6 @@ input{
     width: 155px;
     height: 156px;
     position: absolute;
-    overflow: hidden;
     left: -25%;
     border-radius: 50%;
     top: 4%;
