@@ -43,6 +43,8 @@ input{
     background-image: url(./image/fon_header.png);
     overflow: visible;
     object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .header__container_logo{
@@ -410,7 +412,7 @@ input{
 
 
 .we__title{
-    margin: 44px 20px 23px 20px;
+    margin: 115px 20px 23px 20px;
     font-weight: 400;
     font-size: 32px;
     line-height: 90%;
@@ -488,12 +490,12 @@ input{
     .header__blur_circle-desktop{
         width: 163px;
         height: 163px;
-        top: 142%;
+        top: 185%;
     }
     
     .header__text_circle{
         width: 88px;
-        top: 142%;
+        top: 185%;
         right: -6%;
     }
 }
@@ -912,11 +914,11 @@ max-width: 180px;
     border: none;
     color: white;
     width: 276px;
-    border-bottom: 1px solid;
+    border-bottom: 0.5px solid;
     font-weight: 400;
     font-size: 8px;
     line-height: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
 }
 
 .footer__input:last-child{
@@ -934,6 +936,7 @@ max-width: 180px;
     font-size: 12px;
     line-height: 15px;
     margin-left: auto;
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 321px) {
