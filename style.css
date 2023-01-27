@@ -45,6 +45,7 @@ input{
     object-fit: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 750px;
 
 }
 .header__container_logo{
@@ -55,6 +56,13 @@ input{
 @media screen and (min-width: 325px) {
     .header{
         background-image: url(./image/фон\ экран1.png);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .header{
+       max-height: max-content;
     }
 }
 
@@ -491,12 +499,12 @@ input{
     .header__blur_circle-desktop{
         width: 163px;
         height: 163px;
-        top: 185%;
+        top: 225%;
     }
     
     .header__text_circle{
         width: 88px;
-        top: 185%;
+        top: 225%;
         right: -6%;
     }
 }
@@ -853,7 +861,7 @@ max-width: 180px;
 }
 
 .WhyWe__image{
-    width: 320px;
+    width: -webkit-fill-available;
     margin: auto;
     margin-top: 126px;
     display: block;
