@@ -99,7 +99,7 @@ input{
 
     }
     .image__client{
-        width: 37px;
+        width: 45px;
     }
 
 }
@@ -200,15 +200,16 @@ input{
 
 .header__title_clients{
     font-weight: 400;
-    font-size: 18.5918px;
+    font-size: 24px;
     line-height: 21px;
     font-family: 'forum';
     margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 .header__subtitle_clients{
     font-weight: 400;
-    font-size: 11.9771px;
+    font-size: 14px;
     line-height: 15px;
     margin-bottom: 26px;
     margin-left: 20px;
@@ -495,6 +496,7 @@ input{
 
 .we__subtitle_mobile{
     display: block;
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 768px) {
