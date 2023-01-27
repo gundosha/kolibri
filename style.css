@@ -227,11 +227,11 @@ input{
 .header__btn{
     background-color: #F79229;
     color: black;
-    width: 150px;
-    height: 29px;
+    width: 200px;
+    height: 40px;
     border: none;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 17px;
     margin-left: 20px;
     margin-bottom: 142px;
 }
@@ -501,13 +501,13 @@ input{
 
 @media screen and (max-width: 768px) {
     .header__blur_circle-desktop{
-        width: 163px;
-        height: 163px;
+        width: 180px;
+        height: 180px;
         top: 225%;
     }
     
     .header__text_circle{
-        width: 88px;
+        width: 110px;
         top: 225%;
         right: -6%;
     }
@@ -932,7 +932,7 @@ max-width: 180px;
     width: 276px;
     border-bottom: 0.5px solid;
     font-weight: 400;
-    font-size: 8px;
+    font-size: 13px;
     line-height: 10px;
     margin-bottom: 18px;
 }
