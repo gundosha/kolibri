@@ -108,12 +108,14 @@ input{
 
 
 .logo{
+    width: 75px;
     margin: 25px 0px 68px 20px;
     image-rendering: -webkit-optimize-contrast;
 }
 
 @media screen and (min-width: 950px) {
     .logo{
+        width: 125px;
         margin: 25px 0px 169px 20px;
     }
     .header__clients{
