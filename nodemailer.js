@@ -5,12 +5,12 @@ const transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth:{
-        user:'zamilov_2016@mail.ru', // 89037369474@bk.ru
-        pass:'E5im7vkit2HptwRPrKmi' //C1Lpax00sDXmsZvBMx7h KOLIBRI   E5im7vkit2HptwRPrKmi ME
+        user:'89037369474@bk.ru', // 89037369474@bk.ru
+        pass:'C1Lpax00sDXmsZvBMx7h' //C1Lpax00sDXmsZvBMx7h KOLIBRI   E5im7vkit2HptwRPrKmi ME
     }
 }, 
 {
-    from: 'kolibri <zamilov_2016@mail.ru>',
+    from: 'delta-agency <89037369474@bk.ru>',
 })
 
 
