@@ -116,7 +116,7 @@ input{
 @media screen and (min-width: 950px) {
     .logo{
         width: 125px;
-        margin: 25px 0px 169px 20px;
+        margin: 25px 0px 125px 20px;
     }
     .header__clients{
         margin: -114px 40px 0 0;
@@ -424,6 +424,9 @@ input{
     border-radius: 50%;*/
 
 
+.we{
+    margin-top: 83px;
+}
 .we__title{
     margin: 115px 20px 23px 20px;
     font-weight: 400;
