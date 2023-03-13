@@ -15,6 +15,9 @@
     src: url(./fonts/Forum-Regular.ttf);
 }
 
+.novision{
+	display:none}
+
 
 body{
     margin: 0;
@@ -45,7 +48,7 @@ input{
     object-fit: contain;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 850px;
 
 }
 .header__container_logo{
@@ -281,6 +284,7 @@ input{
         font-size: 22px;
         line-height: 27px;
         max-width: 450px;
+        margin-bottom: 66px
     }
 
     .header__btn{
@@ -971,7 +975,7 @@ max-width: 180px;
     justify-content: space-between;
     margin-top: 126px;
     align-items: end;
-    margin-bottom: 84px;
+    margin-bottom: 50px;
 }
 
 
@@ -984,6 +988,10 @@ max-width: 180px;
 .footer__image{
     width: 24px;
     margin-right: 4px;
+}
+
+.footer__logo{
+    margin: 0px 0px 46px 0px;
 }
 
 .footer__link{
@@ -1522,4 +1530,7 @@ max-width: 180px;
     }
 }
 
-
+@media screen and (min-width: 768px) {
+	.again{
+	display: none}
+} 

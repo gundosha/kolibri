@@ -4,7 +4,7 @@ const mailer = require('./nodemailer')
 const app = express()
 let user = undefined
 
-const PORT =process.env.Port || 80 // порт
+const PORT =process.env.Port || 5000  // порт
 
 app.use(express.static('../kolibri'));
 app.use('/static', express.static('kolibri'));
