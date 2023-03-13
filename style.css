@@ -1246,15 +1246,17 @@ max-width: 180px;
         line-height: 31px;
     }
     .services__text{
-        height: 384px;
-        max-width: 315px;
+        height: 304px;
+        max-width: 368px;
         margin-top: 30px;
-        margin-bottom: 63px;
+        margin-bottom: 40px;
         font-weight: 400;
-        font-size: 19px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 22px;
 
     }
+
+   
 
 
     .services__circle-one{
@@ -1534,3 +1536,23 @@ max-width: 180px;
 	.again{
 	display: none}
 } 
+
+
+.services__text_cost{
+    margin: 0;
+    font-family: 'forum';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: end;
+    margin: 20px 0 20px 0;
+}
+
+.services__text_cost-pc{
+    margin: 0;
+    font-family: 'forum';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
