@@ -11,7 +11,7 @@ app.use('/static', express.static('kolibri'));
 app.use('/index.css', express.static(__dirname + '/index.css'))
 app.use(bodyParser.urlencoded({extended : false})) // собирает данные с боди
 app.post('/index', (req,res) => {  
-    if(!req.body.number) telInput.innerHTML = 'заполните поле' // return res.sendStatus(400) // минимальная проверка формы
+    if(!req.body.number) return res.sendStatus(400) // минимальная проверка формы
     message = {
         to: '89037369474@bk.ru',
         subject: 'Оставили номер',
