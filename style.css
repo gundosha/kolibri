@@ -946,6 +946,16 @@ max-width: 180px;
     margin-bottom: 18px;
 }
 
+
+.footer__input_tel{
+    margin-bottom: 10px;
+}
+
+.footer__input_valid{
+    margin-bottom: 15px;
+    color: red;
+}
+
 .footer__input:last-child{
     margin-bottom: 26px;
 }
@@ -962,6 +972,11 @@ max-width: 180px;
     line-height: 15px;
     margin-left: auto;
     margin-top: 10px;
+}
+
+.btn__disabled{
+    background-color: gray;
+    pointer-events: none;
 }
 
 @media screen and (min-width: 321px) {

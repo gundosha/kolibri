@@ -7,8 +7,11 @@ const contacts = document.querySelector('.contacts')
 const modalForm = document.querySelector('.modal__form')
 const headerBtn = document.querySelector('.header__btn')
 const closeModal = document.querySelector('.close')
+const telInput = document.querySelector('.footer__input_tel')
 const servicesBtn = document.querySelector('.services__btn')
 const applicationClose = document.querySelector('.application__close')
+const btnSubmit = document.querySelector('.footer__btn')
+const textValid = document.querySelector('.footer__input_valid')
 function modalOpen(mod){
     mod.classList.remove('modal__close')
     mod.classList.add('modal__open')
@@ -52,4 +55,22 @@ contacts.addEventListener('click', function(){
 services.addEventListener('click', function(){
     modalCloses(modal)
 })
+
+console.log(telInput.value)
+btnSubmit.setAttribute("disabled", "true");
+        btnSubmit.classList.add('btn__disabled')
+telInput.addEventListener('input', function(){
+    if(telInput.value.replace(/[^\d.]/g, '').length < 10){
+       // btnSubmit.setAttribute("disabled", "true");
+        btnSubmit.classList.add('btn__disabled')
+        textValid.innerHTML = 'заполните поле'
+        console.log(telInput.value)
+    }
+    else{
+        btnSubmit.setAttribute("disabled", "false");
+        btnSubmit.classList.remove('btn__disabled')
+        textValid.innerHTML = ''
+    }
+})
+
 
