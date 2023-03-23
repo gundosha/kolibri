@@ -70,7 +70,7 @@ telInput.addEventListener('input', function(){
         textValid.innerHTML = 'заполните поле'
     }
     else{
-        btnSubmit.setAttribute("disabled", "false");
+        btnSubmit.removeAttribute("disabled");
         btnSubmit.classList.remove('btn__disabled')
         textValid.innerHTML = ''
     }
@@ -84,7 +84,7 @@ telInputModal.addEventListener('input', function(){
        textValidModal.innerHTML = 'заполните поле'
     }
     else{
-        btnSubmitModal.setAttribute("disabled", "false");
+        btnSubmitModal.removeAttribute("disabled");
         btnSubmitModal.classList.remove('btn__disabled')
         textValidModal.innerHTML = ''
     }

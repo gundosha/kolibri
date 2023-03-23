@@ -681,6 +681,7 @@ line-height: 14px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        margin-bottom: 285px;
     }
     
     .we__subtitle:nth-child(3){
@@ -1676,6 +1677,16 @@ max-width: 180px;
     }
     
     .callInActive{
+        display: none;
+    }
+}
+
+.menu__link-whatsapp{
+    display: block;
+}
+
+@media screen and (min-width:768px) {
+    .menu__link-whatsapp{
         display: none;
     }
 }
